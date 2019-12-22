@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text:700&display=swap');
+
+/* exo-2-regular - latin */
+@font-face {
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 400;
+    src: url('fonts/exo-2-v7-latin-regular.eot');
+    /* IE9 Compat Modes */
+    src: local('Exo 2 Regular'), local('Exo2-Regular'),
+        url('fonts/exo-2-v7-latin-regular.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('fonts/exo-2-v7-latin-regular.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('fonts/exo-2-v7-latin-regular.woff') format('woff'),
+        /* Modern Browsers */
+        url('fonts/exo-2-v7-latin-regular.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('fonts/exo-2-v7-latin-regular.svg#Exo2') format('svg');
+    /* Legacy iOS */
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Crimson Text', serif;
+    color: #777;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.nav ul {
+    margin: 0;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav a {
+    display: inline-block;
+    padding: .5em;
+    color: white;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    background-color: rgba(255, 255, 255, .3);
+}
+
+.main-nav {
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: lighter;
+    border-bottom: 2px solid rgba(255, 255, 255, .3)
+}
+
+.main-nav {
+    padding: 0 10%;
+}
+
+.main-header {
+    background-color: rgba(0, 0, 0, .6);
+    background-blend-mode: multiply;
+    background-image: url(imgs/pines.jpg);
+    background-size: contain;
+    background-repeat: repeat;
+    padding-bottom: 30px;
+}
+
+.author {
+    text-align: center;
+    margin: 0;
+    font-size: 2em;
+    font-family: 'Exo 2';
+    font-weight: normal;
+    color: white;
+}
+
+.author-large {
+    font-size: 8em;
+}
+
+.content-section {
+    margin: 1em;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+
+.section-header {
+    font-family: 'Exo 2';
+    text-align: center;
+    font-size: 3em;
+
+}
+
+.about-me {
+    float: left;
+    height: 300px;
+    width: 300px;
+    margin: 15px;
+    border-radius: 50%;
+}
+
+.main-footer {
+    background-color: firebrick;
+    padding: .5em 0;
+    bottom: 0;
+    position: static;
+    width: 100%;
+}
+
+.main-footer-container {
+    display: flex;
+    align-items: center;
+}
+
+.main-footer-container ul {
+    flex-grow: 1;
+    text-align: end;
+
+}
+
+.footer-nav li {
+    padding: 0 .5em;
+
+}
+
+.footer-nav img {
+    height: 35px;
+    width: 35px;
+}
